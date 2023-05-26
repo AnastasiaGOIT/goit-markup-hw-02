@@ -17,15 +17,19 @@ ul {
 /*---------Header-----------*/
 
 .header {
+  background: #ffffff;
 }
 .header-nav {
 }
 .header-link-logo {
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  align-items: center;
+  text-transform: uppercase;
 }
 .header-link-logo span {
   color: #4d5ae5;
@@ -43,17 +47,142 @@ ul {
   color: var(--main-color);
 }
 .header-contact {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 .header-contact-list {
 }
 .header-contact-item {
 }
 .header-contact-mail {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .header-contact-tel {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*---------Hero-----------*/
+
+.hero {
+  background: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background: #4d5ae5;
+}
+
+/*---------Benefits-----------*/
+
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*--------Offer-----------*/
+
+.offer-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/*--------team-----------*/
+
+.team {
+  background: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-list {
+}
+.team-item {
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*--------footer-----------*/
+
+.footer {
+  background: #2e2f42;
+}
+.footer-logo span {
+  color: #4d5ae5;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
