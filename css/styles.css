@@ -30,6 +30,19 @@ ul {
   color: var(--text-color);
 }
 
+.gallery-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
 .gallery-btn-accent {
   font-weight: 500;
   font-size: 16px;
@@ -201,18 +214,9 @@ ul {
 .header-address-contact 
 /*--------Portfolio gallery-----------*/
 
-.gallery .gallery-list .gallery-item .gallery-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-}
+.gallery .gallery-list .gallery-item 
+
+
 /*--------Portfolio gallery-img-----------*/
 
 .gallery-img
