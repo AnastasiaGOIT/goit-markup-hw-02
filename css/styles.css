@@ -10,11 +10,11 @@ body {
   --background-color: #ffffff;
   --logo-accent-color: #4d5ae5;
 }
-.header-nav .header-link-logo {
+a {
   text-decoration: none;
 }
 
-.header-menu-link {
+ul {
   list-style: none;
 }
 
@@ -63,7 +63,7 @@ body {
   background: #ffffff;
 }
 
-.header-nav .header-link-logo {
+.header-nav {
   font-family: "Raleway,sans-serif";
   font-size: 18px;
   font-weight: 800;
@@ -73,6 +73,18 @@ body {
   align-items: center;
   text-transform: uppercase;
 }
+
+.header-link-logo .link {
+  font-family: "Raleway,sans-serif";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--logo-accent-color);
+  align-items: center;
+  text-transform: uppercase;
+}
+
 .header-link-logo span {
   color: #2e2f42;
 }
