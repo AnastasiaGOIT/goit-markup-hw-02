@@ -175,7 +175,8 @@ body {
 .list {
   list-style: none;
 }
-.offer .list {
+
+.offer {
 }
 .offer-title {
   font-weight: 700;
