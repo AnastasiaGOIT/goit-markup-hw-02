@@ -240,6 +240,27 @@ body {
 }
 
 /*--------Portfolio header-----------*/
+:root {
+  --main-color: #2e2f42;
+  --text-color: #434455;
+  --background-color: #ffffff;
+  --logo-accent-color: #4d5ae5;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
 
 .header {
 }
@@ -270,12 +291,19 @@ body {
 }
 .gallery-btn {
   font-family: "Roboto", sans-serif;
-  color: var(--logo-accent-color);
+  color: var(#4d5ae5);
+  background-color: var(#f4f4fd);
+}
+.gallery-btn {
+  font-family: "Roboto", sans-serif;
+  color: var(#4d5ae5);
   background-color: var(#f4f4fd);
 }
 
 /*--------Portfolio gallery-img-----------*/
-
+.link {
+  text-decoration: none;
+}
 .gallery-img {
 }
 .gallery-img-list {
