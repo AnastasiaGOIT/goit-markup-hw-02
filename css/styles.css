@@ -261,6 +261,9 @@ body {
   letter-spacing: 0.02em;
   color: var(#434455);
 }
+.header-link-logo span {
+  color: #2e2f42;
+}
 
 .header {
 }
