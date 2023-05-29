@@ -64,7 +64,7 @@ body {
 .header-nav {
 }
 
-.header-link-logo .link {
+.header-link-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -82,7 +82,7 @@ body {
 .header-menu-list {
 }
 
-.header-menu-link .link {
+.header-menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -158,7 +158,7 @@ body {
 .benefits {
 }
 
-.benefits-list .list {
+.benefits-list {
 }
 
 .benefits-item {
