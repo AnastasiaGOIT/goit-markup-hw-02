@@ -8,7 +8,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
-  background-color: var(#ffffff);
+  background-color: #ffffff;
 }
 
 .link {
@@ -177,6 +177,7 @@ body {
 }
 
 .offer {
+  background-color: #f4f4fd;
 }
 .offer-title {
   font-weight: 700;
@@ -191,7 +192,6 @@ body {
 /*--------team-----------*/
 
 .team {
-  background: #ffffff;
 }
 .team-title {
   font-weight: 700;
@@ -203,7 +203,7 @@ body {
   color: #2e2f42;
 }
 
-.team-list list {
+.team-list {
   background-color: #ffffff;
 }
 .team-name {
@@ -259,7 +259,9 @@ body {
 .header-address-contact {
 }
 /*--------Portfolio gallery-----------*/
-
+.list {
+  list-style: none;
+}
 .gallery {
 }
 .gallery-list {
