@@ -188,6 +188,9 @@ body {
   text-transform: capitalize;
   color: var(--main-color);
 }
+.offer-list {
+  background-color: #ffffff;
+}
 
 /*--------team-----------*/
 
@@ -204,7 +207,10 @@ body {
   color: #2e2f42;
 }
 
-.team-list list {
+.team-list {
+  background-color: #ffffff;
+}
+.team-item {
   background-color: #ffffff;
 }
 .team-name {
