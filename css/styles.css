@@ -1,20 +1,21 @@
-body {
-  font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: var(#ffffff);
-}
-
 :root {
   --main-color: #2e2f42;
   --text-color: #434455;
   --background-color: #ffffff;
   --logo-accent-color: #4d5ae5;
 }
-a {
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: var(#ffffff);
+}
+
+.link {
   text-decoration: none;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
@@ -42,7 +43,6 @@ ul {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background: #f4f4fd;
-  border: 1px solid #e7e9fc;
   cursor: pointer;
 }
 
@@ -64,18 +64,10 @@ ul {
 }
 
 .header-nav {
-  font-family: "Raleway,sans-serif";
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--logo-accent-color);
-  align-items: center;
-  text-transform: uppercase;
 }
-
+}
 .header-link-logo .link {
-  font-family: "Raleway,sans-serif";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -89,7 +81,10 @@ ul {
   color: #2e2f42;
 }
 
-.header-menu-link {
+.header-menu-list {
+}
+
+.header-menu-link .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -102,7 +97,12 @@ ul {
 .header-menu-link:focus {
   color: #404bbf;
 }
-
+.header-address {
+     font-style: normal
+}
+.header-address-list .list {
+   
+}
 .header-address-contact-mail {
   font-size: 16px;
   line-height: 24px;
@@ -156,10 +156,12 @@ ul {
   background-color: #404bbf;
 }
 /*---------Benefits-----------*/
-
+.list {
+  list-style: none;
+}
 .benefits 
 
-.benefits-list 
+.benefits-list .list
 
 .benefits-item 
 
@@ -169,6 +171,9 @@ ul {
 
 /*--------Offer-----------*/
 
+.list {
+  list-style: none;
+}
 .offer-title {
   font-weight: 700;
   font-size: 36px;
@@ -176,7 +181,8 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--main-color);
+
 }
 
 /*--------team-----------*/
@@ -194,9 +200,11 @@ ul {
   color: #2e2f42;
 }
 
-.team-list .team-item .team-name {
-  text-align: center;
+.team-list list{
   background-color: #ffffff;
+}
+.team-name {
+  text-align: center;
 }
 
 .team-text {
@@ -233,10 +241,14 @@ ul {
 
 .header 
 .header-nav 
-.header-link-logo 
-.header-menu-list 
+.header-link-logo {
+    font-family: "Raleway", sans-serif;
+    color: var(--logo-accent-color); 
+}
+.header-menu-list .list
 .header-menu-item 
-.header-menu-link 
+.header-menu-link .link {
+font-style: normal }
 .header-address 
 .header-address-link 
 .header-address-item 
@@ -244,13 +256,23 @@ ul {
 /*--------Portfolio gallery-----------*/
 
 .gallery .gallery-list .gallery-item 
+.gallery-btn {
+    font-family: "Roboto",sans-serif;
+    color: var(--logo-accent-color);
+    background-color: var(#f4f4fd);
+}
 
 
 /*--------Portfolio gallery-img-----------*/
 
 .gallery-img
-  .gallery-img-list
+  .gallery-img-list .list
   .gallery-img-item
   .gallery-img-title
   .gallery-img-text {
+    font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em
+     color: var(#434455)
+
 }
