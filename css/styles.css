@@ -192,6 +192,7 @@ body {
 /*--------team-----------*/
 
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -294,18 +295,18 @@ body {
 }
 .gallery-btn-accent {
   font-family: "Roboto", sans-serif;
-  color: var(#4d5ae5);
-  background-color: var(#f4f4fd);
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
 .gallery-btn {
   font-family: "Roboto", sans-serif;
-  color: var(#4d5ae5);
-  background-color: var(#f4f4fd);
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
 .gallery-btn {
   font-family: "Roboto", sans-serif;
-  color: var(#4d5ae5);
-  background-color: var(#f4f4fd);
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
 
 /*--------Portfolio gallery-img-----------*/
