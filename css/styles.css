@@ -37,7 +37,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
@@ -49,14 +48,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #404bbf;
   cursor: pointer;
 }
-
 
 /*---------Header-----------*/
 
@@ -66,7 +63,7 @@ body {
 
 .header-nav {
 }
-}
+
 .header-link-logo .link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -74,10 +71,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--logo-accent-color);
-  align-items: center;
   text-transform: uppercase;
 }
-
+.span {
+}
 .header-link-logo span {
   color: #2e2f42;
 }
@@ -99,10 +96,9 @@ body {
   color: #404bbf;
 }
 .header-address {
-     font-style: normal
+  font-style: normal;
 }
 .header-address-list .list {
-   
 }
 .header-address-contact-mail {
   font-size: 16px;
@@ -142,7 +138,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
@@ -160,22 +155,28 @@ body {
 .list {
   list-style: none;
 }
-.benefits 
+.benefits {
+}
 
-.benefits-list .list
+.benefits-list .list {
+}
 
-.benefits-item 
+.benefits-item {
+}
 
-.benefits-title 
+.benefits-title {
+}
 
-.benefits-text 
+.benefits-text {
+}
 
 /*--------Offer-----------*/
 
 .list {
   list-style: none;
 }
-.offer .list {}
+.offer .list {
+}
 .offer-title {
   font-weight: 700;
   font-size: 36px;
@@ -184,7 +185,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-color);
-
 }
 
 /*--------team-----------*/
@@ -202,7 +202,7 @@ body {
   color: #2e2f42;
 }
 
-.team-list list{
+.team-list list {
   background-color: #ffffff;
 }
 .team-name {
@@ -227,7 +227,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-accent-color);
@@ -241,40 +240,50 @@ body {
 
 /*--------Portfolio header-----------*/
 
-.header 
-.header-nav 
-.header-link-logo {
-    font-family: "Raleway", sans-serif;
-    color: var(--logo-accent-color); 
+.header {
 }
-.header-menu-list .list
-.header-menu-item 
-.header-menu-link .link {
-font-style: normal }
-.header-address 
-.header-address-link 
-.header-address-item 
-.header-address-contact 
+.header-nav {
+}
+.header-link-logo {
+}
+.header-menu-list .list .header-menu-item .header-menu-link .link {
+  font-style: normal;
+}
+.header-address {
+}
+.header-address-link {
+}
+.header-address-item {
+}
+.header-address-contact {
+}
 /*--------Portfolio gallery-----------*/
 
-.gallery .gallery-list .gallery-item 
-.gallery-btn {
-    font-family: "Roboto",sans-serif;
-    color: var(--logo-accent-color);
-    background-color: var(#f4f4fd);
+.gallery {
 }
-
+.gallery-list {
+}
+.gallery-item {
+}
+.gallery-btn {
+  font-family: "Roboto", sans-serif;
+  color: var(--logo-accent-color);
+  background-color: var(#f4f4fd);
+}
 
 /*--------Portfolio gallery-img-----------*/
 
-.gallery-img
-  .gallery-img-list .list
-  .gallery-img-item
-  .gallery-img-title
-  .gallery-img-text {
-    font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em
-     color: var(#434455)
-
+.gallery-img {
+}
+.gallery-img-list {
+}
+.list .gallery-img-item {
+}
+.gallery-img-title {
+}
+.gallery-img-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(#434455);
 }
